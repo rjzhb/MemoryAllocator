@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MemoryAllocator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemoryAllocator">
+				<Option output="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/MemoryAllocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rjzhb/Project/MemoryAllocator/src/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 MemoryAllocator"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemoryAllocator/fast">
+				<Option output="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/MemoryAllocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rjzhb/Project/MemoryAllocator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rjzhb/Project/MemoryAllocator/src/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 MemoryAllocator/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/rjzhb/Project/MemoryAllocator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/main.cpp">
+			<Option target="MemoryAllocator"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/src/allocator/bestfit_allocator.cpp">
+			<Option target="MemoryAllocator"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/src/allocator/firstfit_allocator.cpp">
+			<Option target="MemoryAllocator"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/src/include/bestfit_allocator.h">
+			<Option target="MemoryAllocator"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/src/include/firstfit_allocator.h">
+			<Option target="MemoryAllocator"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/src/include/memory_allocator.h">
+			<Option target="MemoryAllocator"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rjzhb/Project/MemoryAllocator/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

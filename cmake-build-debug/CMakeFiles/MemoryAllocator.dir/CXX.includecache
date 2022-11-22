@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/bestfit_allocator.h
+iostream
+-
+memory_allocator.h
+../src/include/memory_allocator.h
+list
+-
+vector
+-
+
+../src/include/firstfit_allocator.h
+memory_allocator.h
+../src/include/memory_allocator.h
+list
+-
+vector
+-
+
+../src/include/memory_allocator.h
+iostream
+-
+
+/home/rjzhb/Project/MemoryAllocator/main.cpp
+iostream
+-
+vector
+-
+memory_allocator.h
+/home/rjzhb/Project/MemoryAllocator/memory_allocator.h
+firstfit_allocator.h
+/home/rjzhb/Project/MemoryAllocator/firstfit_allocator.h
+bestfit_allocator.h
+/home/rjzhb/Project/MemoryAllocator/bestfit_allocator.h
+
